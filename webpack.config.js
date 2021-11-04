@@ -1,7 +1,7 @@
 const path = require('path');
 
-const src_dir = path.join(__dirname, '/client/src');
-const dist_dir = path.join(__dirname, '/client/dist');
+const src_dir = path.join(__dirname, './client/Source');
+const dist_dir = path.join(__dirname, '/client/Dist');
 
 module.exports = {
   entry: [`${src_dir}/index.js`],
@@ -19,5 +19,5 @@ module.exports = {
         }
       },
     ]
-  },
+  }
 }
