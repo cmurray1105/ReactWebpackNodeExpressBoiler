@@ -2,10 +2,11 @@
   "name": "reactwebpacknodeexpressboiler",
   "version": "1.0.0",
   "description": "",
-  "main": "./server/server.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --watch --mode development",
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",

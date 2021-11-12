@@ -1,6 +1,6 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Appgit comfig --global';
-
-ReactDOM.render(<App />, document.getElementById('root'))
+const Index = () => {
+    return <div>React is Rendering</div>;
+};
+ReactDOM.render(<Index />, document.getElementById('root'));
